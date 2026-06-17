@@ -15,7 +15,16 @@ code .
 
 ## Wybór ćwiczenia
 - [ ] We zdecyduj które ćwiczenia bedą najłatwiejsze i je tu napisz
+  - Rozważmy zatem przykłady trudniejsze, mogą to być:
+    - podnoszenie sztangi lub hantli
+    - joga, tai-chi, karate i inne sztuki walki
+    - gimnastyka artystyczna
+    - tenis, siatkówka
+    - rehabilitacja po operacji, wypadku, w stanach niedowładu.
+  - podnoszenie sztangi lub hantli - reszta bez porównania pod względem trudności
+  
 - [ ] Zdefiniować błędy do wykrywania
+  - 
 
 ## Setup
 - [ ] Nagrać video Ćwiczeń i przekazać je do programu (teraz jest testowo video z kamerki z telefonie)
@@ -46,7 +55,7 @@ code .
 - [ ] Zapis danych sesji do txt
 
 ## Testy
-- [ ] Dokładność detekcji błędó
+- [ ] Dokładność detekcji błędów
 
 ## Raport (artykuł naukowy)
 - [ ] Abstrakt, wstęp, metodologia
