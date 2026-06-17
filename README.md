@@ -11,6 +11,22 @@ source venv/bin/activate
 code .
 ```
 
+# Instrukcja użytkowania:
+
+Komendy głosowe:
+"start" → zeruje licznik, zaczyna nagrywać
+"reset" → zeruje powtórzenia
+"stop" → kończy, zapisuje sesję do sessions/
+
+Ćwiczenie:
+Stań w kadrze cały
+Rób przysiady — kąt kolana < 90° = dobre powtórzenie
+Na ekranie widać kąt, licznik, błędy
+
+Po sesji:
+sessions/session_YYYYMMDD_HHMMSS.mp4 — nagranie ze szkieletem
+sessions/stats_YYYYMMDD_HHMMSS.json — błędy per powtórzenie
+
 # TODO
 
 ## Wybór ćwiczenia
@@ -28,31 +44,31 @@ code .
 
 ## Setup
 - [ ] Nagrać video Ćwiczeń i przekazać je do programu (teraz jest testowo video z kamerki z telefonie)
-- [ ] Zrobić IO dzwiękowe do kontroli i informowania
+- [x] Zrobić IO dzwiękowe do kontroli i informowania
 
 ## Computer Vision
-- [ ] MediaPipe Pose – wykrywanie szkieletu
+- [x] MediaPipe Pose – wykrywanie szkieletu
 - [ ] YOLO v11 – detekcja obiektów (hantle, mata, etc.)
 - [ ] Roboflow – dataset + trening własnego modelu
-- [ ] Algorytmy kątów stawów (własne funkcje numpy)
+- [x] Algorytmy kątów stawów (własne funkcje numpy)
 - [ ] Fuzja obrazu z 2 nagrań video
 
 ## Logika trenera
-- [ ] Liczenie powtórzeń
-- [ ] Wykrywanie błędów pozy w czasie rzeczywistym
+- [x] Liczenie powtórzeń
+- [x] Wykrywanie błędów pozy w czasie rzeczywistym
 - [ ] Ocena serii po zakończeniu
 
 ## Interfejs głosowy
-- [ ] `speech_recognition` – komendy głosowe od ćwiczącego
+- [x] `speech_recognition` – komendy głosowe od ćwiczącego
 - [ ] `pygame` / TTS – feedback głosowy trenera
 - [ ] Scenariusze dialogów (użycie poprawne i niepoprawne)
 
 ## UI (po/w trakcie serii)
 - [ ] Playback nagrania z zaznaczonymi błędami
-- [ ] Statystyki serii (powtórzenia, błędy, czas)
+- [x] Statystyki serii (powtórzenia, błędy, czas)
 
 ## Baza danych
-- [ ] Zapis danych sesji do txt
+- [x] Zapis danych sesji do json
 
 ## Testy
 - [ ] Dokładność detekcji błędów

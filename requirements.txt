@@ -3,3 +3,7 @@ numpy
 ipywidgets
 mediapipe
 ipython
+vosk
+sounddevice
+ffmpeg-python
+pyttsx3
