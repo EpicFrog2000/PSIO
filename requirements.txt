@@ -7,3 +7,5 @@ vosk
 sounddevice
 ffmpeg-python
 pyttsx3
+edge-tts
+pygame
