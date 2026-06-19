@@ -15,17 +15,31 @@ code .
 
 Komendy głosowe:
 "start" → zeruje licznik, zaczyna nagrywać
+"seria" → zapisuje bieżącą serię i od razu zaczyna następną
 "reset" → zeruje powtórzenia
 "stop" → kończy, zapisuje sesję do sessions/
+"zapis on" / "zapis off" → włącza/wyłącza domyślny auto-zapis serii
+
+Kamery:
+- front: `FRONT_STREAM_URL`
+- bok: `SIDE_STREAM_URL`
+
+W `main.ipynb` możesz sterować zachowaniem przez zmienne:
+- `AUTO_SAVE_TO_FILE = True` (domyślnie każda seria zapisywana)
+- `AUTO_START_SERIES = True`
 
 Ćwiczenie:
 Stań w kadrze cały
-Rób przysiady — kąt kolana < 90° = dobre powtórzenie
-Na ekranie widać kąt, licznik, błędy
+Rób podnoszenie hantli — liczenie oparte o kąt łokcia
+Na ekranie widać podgląd front+bok, licznik i błędy
 
 Po sesji:
 sessions/session_YYYYMMDD_HHMMSS.mp4 — nagranie ze szkieletem
 sessions/stats_YYYYMMDD_HHMMSS.json — błędy per powtórzenie
+
+W wersji z seriami pliki są zapisywane jako:
+- `sessions/session_YYYYMMDD_HHMMSS_series_N.mp4`
+- `sessions/stats_YYYYMMDD_HHMMSS_series_N.json`
 
 # TODO
 
