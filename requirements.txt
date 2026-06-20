@@ -9,3 +9,7 @@ ffmpeg-python
 pyttsx3
 edge-tts
 pygame
+ultralytics
+psutil
+pynvml
+radeontop
